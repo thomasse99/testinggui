@@ -2,7 +2,6 @@ import tkinter as tk
 
 root = tk.Tk()
 
-tk.Label(root, text="Sign in", font=("Arial bold", 30)).pack(side=tk.TOP)
-tk.Label()
+tk.Label(root, text="Sign in", font=("Font", 30)).pack(ipady=5)
 
 root.mainloop()
